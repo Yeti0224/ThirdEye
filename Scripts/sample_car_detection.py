@@ -11,7 +11,7 @@ from os.path import isfile, join
 
 
 # capture frames from a video
-cap = cv2.VideoCapture('video.avi')
+cap = cv2.VideoCapture(0)
 
 # Trained XML classifiers describes some features of some object we want to detect
 car_cascade = cv2.CascadeClassifier('haarcascade_car.xml')
